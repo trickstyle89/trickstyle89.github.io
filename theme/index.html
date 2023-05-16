@@ -74,10 +74,10 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link" onclick="scrollToSection('#about')">About Me</a>
+                                <a class="nav-link" onclick="scrollToPosition(775)">About Me</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" onclick="scrollToSection('#feature')">Deliverables</a>
+                                <a class="nav-link" onclick="scrollToPosition(2200)">Deliverables</a>
                             </li>
                             <li class="nav-item">
                               <a class="nav-link" href="https://github.com/trickstyle89">GitHub</a>
@@ -123,7 +123,7 @@ Slider Section Start
             freelance photographer. <br> <br>
           </h2>
           <a class="btn-lines dark light wow fadeInUp animated btn btn-default btn-green hvr-bounce-to-right"
-          data-wow-delay=".9s" onclick="scrollToSection('#works')">My Portfolio</a>
+          data-wow-delay=".9s" onclick="scrollToPosition(1500)">My Portfolio</a>
         </div>
       </div>
     </div>
@@ -133,10 +133,12 @@ Slider Section Start
 <!-- JavaScript button function -->
 
 <script>
-  function scrollToSection(sectionId) {
-    const section = document.querySelector(sectionId);
-    section.scrollIntoView({ behavior: 'smooth' });
-  }
+  function scrollToPosition(position) {
+  window.scrollTo({
+    top: position,
+    behavior: 'smooth'
+  });
+}
 </script>
 
 <!--/#main-slider-->
@@ -244,7 +246,7 @@ Portfolio Section Start
             <img src="images/portfolio/item-3.jpg" class="img-fluid" alt="">
             <div class="overlay">
               <div class="buttons">
-                <a rel="gallery" class="fancybox" href="images/portfolio/item-3.jpg">Demo</a>
+                <a rel="gallery" class="fancybox" href="#">Demo</a>
                 <a target="_blank" href="https://github.com/trickstyle89/scheduler">Code</a>
               </div>
             </div>
