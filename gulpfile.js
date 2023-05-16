@@ -151,6 +151,7 @@ function customPlumber(errTitle) {
 }
 
 // Watch Task
+/*
 gulp.task("watch:build", function () {
   gulp.watch(path.src.html, gulp.series("html:build"));
   gulp.watch(path.src.htminc, gulp.series("html:build"));
@@ -160,6 +161,7 @@ gulp.task("watch:build", function () {
   gulp.watch(path.src.fonts, gulp.series("fonts:build"));
   gulp.watch(path.src.plugins, gulp.series("plugins:build"));
 });
+*/
 
 // Dev Task
 gulp.task(
