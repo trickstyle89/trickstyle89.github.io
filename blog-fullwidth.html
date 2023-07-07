@@ -1,11 +1,119 @@
-@@include('header.htm')
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <!-- Basic Page Needs
+        ================================================== -->
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="icon" href="../images/favicon.png">
+        <title>Ivan's Portfolio</title>
+        <meta name="description" content="Ivan's Web Dev Portfolio">
+        <meta name="keywords" content="Web development services, Custom website design, Responsive web design, 
+        Front-end development, Back-end development, E-commerce development, CMS (Content Management System),
+        Mobile app development, UI/UX design, WordPress development, PHP development, JavaScript development,
+        HTML/CSS coding, SEO-friendly websites, Website maintenance, Cross-browser compatibility, 
+        Website optimization, User-friendly interfaces, Scalable web solutions, Modern web technologies, 
+        Interactive web design, Professional web development, Secure web applications, API integration, 
+        Web performance optimization.">
+        <meta name="author" content="Ivan Chew">
+        <!-- Mobile Specific Metas
+        ================================================== -->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+        <!-- theme meta -->
+        <meta name="theme-name" content="timer" />
 
-@@include('blocks/navigation.htm')
+        <!-- Template CSS Files
+        ================================================== -->
+        <!-- Twitter Bootstrs CSS -->
+        <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+        <!-- Ionicons Fonts Css -->
+        <link rel="stylesheet" href="plugins/ionicons/ionicons.min.css">
+        <!-- animate css -->
+        <link rel="stylesheet" href="plugins/animate-css/animate.css">
+        <!-- Hero area slider css-->
+        <link rel="stylesheet" href="plugins/slider/slider.css">
+        <!-- slick slider -->
+        <link rel="stylesheet" href="plugins/slick/slick.css">
+        <!-- Fancybox -->
+        <link rel="stylesheet" href="plugins/facncybox/jquery.fancybox.css">
+        <!-- hover -->
+        <link rel="stylesheet" href="plugins/hover/hover-min.css">
+        <!-- template main css file -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
 
-@@include('blocks/breadcrumbs.htm',{
-"title" : "Full width blog",
-"name" : "Blog"
-})
+
+<!--
+        ==================================================
+        Header Section Start
+        ================================================== -->
+<style>
+  html {
+    scroll-behavior: smooth;
+  }
+</style>
+
+<section class="top-bar animated-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="index.html">
+            <img src="../images/ivan-logo-colored.png" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#clients">My Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#feature">My Deliverables</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://github.com/trickstyle89"
+                  >GitHub</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://www.linkedin.com/in/chewstory/"
+                  >LinkedIn</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://flowcv.com/resume/j5mas9dn3t"
+                  >Resume</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
 
 
 <!--=====================================
@@ -86,8 +194,72 @@
   </div>
 </section>
 
-@@include('blocks/call-to-action.htm')
+            <!--
+            ==================================================
+            Call To Action Section Start
+            ================================================== -->
+            <section id="call-to-action">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="block">
+                                <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">I would love to hear from you!</h1>
+                                <p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">Serious, curious or both? Collaboration, ideation or mentorship?<br>Questions, quotes or queries?</p>
+                                <a href="#" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s" data-wow-duration="500ms">Email Me</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
 
-@@include('blocks/footer.htm')
+            <!--
+            ==================================================
+            Footer Section Start
+            ================================================== -->
+            <footer id="footer">
+                <div class="container">
+                    <div class="row content-justify-between">
+                        <div class="col-md-8 col-12 text-center text-lg-left text-md-left">
+                            <p class="copyright">Copyright: Timer Theme by Themefisher. Developed by Ivan Chew</p>
+                        </div>
+                        <div class="col-md-4 col-12">
+                            <!-- Social Media -->
+                            <ul class="social text-center text-md-right text-lg-right">
+                                <li>
+                                    <a href="https://www.linkedin.com/in/chewstory/" class="Linkedin">
+                                        <i class="ion-social-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/trickstyle89" class="Linkedin">
+                                        <i class="ion-social-github"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer> <!-- /#footer -->
 
-@@include('footer.htm')
+	<!-- Template Javascript Files
+	================================================== -->
+	<!-- jquery -->
+	<script src="plugins/jQurey/jquery.min.js"></script>
+	<!-- Form Validation -->
+    <script src="plugins/form-validation/jquery.form.js"></script> 
+    <script src="plugins/form-validation/jquery.validate.min.js"></script>
+	<!-- slick slider -->
+	<script src="plugins/slick/slick.min.js"></script>
+	<!-- bootstrap js -->
+	<script src="plugins/bootstrap/bootstrap.min.js"></script>
+	<!-- wow js -->
+	<script src="plugins/wow-js/wow.min.js"></script>
+	<!-- slider js -->
+	<script src="plugins/slider/slider.js"></script>
+	<!-- Fancybox -->
+	<script src="plugins/facncybox/jquery.fancybox.js"></script>
+	<!-- template main js -->
+	<script src="js/main.js"></script>
+ 	</body>
+</html>
