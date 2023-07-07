@@ -1,28 +1,33 @@
-name: Deploy to GitHub Pages
+name: Build and Deploy to GitHub Pages
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
 
 jobs:
-  deploy:
+  build-deploy:
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [14.x]
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Use Node.js 14.x
+    - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v2
       with:
-        node-version: 14.x
+        node-version: ${{ matrix.node-version }}
 
     - name: Install Dependencies
       run: npm ci
 
-    - name: Build
-      run: npm run build
+    - name: Build with Gulp
+      run: |
+        npm install
+        gulp
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
