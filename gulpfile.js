@@ -1,4 +1,4 @@
-// "use strict";
+"use strict";
 
 const sass = require("gulp-sass")(require("sass"));
 const gulp = require("gulp");

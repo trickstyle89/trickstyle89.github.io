@@ -1,5 +1,5 @@
 (function ($) {
-  // "use strict";
+  "use strict";
 
   $.fn.scrollingTo = function (opts) {
     var defaults = {
