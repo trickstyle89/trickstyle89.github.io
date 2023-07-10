@@ -1,80 +1,50 @@
-# Timer Free Bootstrap agency Template
+# Ivan's Portfolio
 
-![timer](https://demo.themefisher.com/thumbnails/timer.png)
+This is a repository of the source code for Ivan Chew's web development portfolio. It's built with simplicity in mind.
 
-👉🏻[View Live Preview](https://demo.themefisher.com/timer/)
+## Features
 
-<!-- download -->
-## Download And installation
+- Responsive web design
+- Animated header
+- Links to Ivan's resume, GitHub, and LinkedIn
+- Section showcasing Ivan's skills
+- About me section
 
-Download this template from [Github](https://github.com/themefisher/timer/archive/main.zip)
+## Technologies used
 
-<!-- installation -->
-### Basic Usages
+- HTML5
+- CSS3
+- JavaScript
+- [Twitter Bootstrap](https://getbootstrap.com/)
+- [Ionicons](https://ionicons.com/)
+- [Animate.css](https://animate.style/)
+- [Slick](https://kenwheeler.github.io/slick/)
+- [jQuery Form](https://malsup.com/jquery/form/)
+- [jQuery Validate](https://jqueryvalidation.org/)
+- [WOW.js](https://mynameismatthieu.com/WOW/)
+- [Fancybox](https://fancyapps.com/fancybox/3/)
+- [Owl Carousel](https://owlcarousel2.github.io/OwlCarousel2/)
 
-After downloading the template, you can simply edit the HTML and CSS files from the `theme` folder. To preview the changes you make to the code, you can open the index.html file in your web browser.
+## Usage
 
-### Advanced Usage
+1. Clone the repository.
+```shell
+git clone https://github.com/trickstyle89/portfolio.git
+Open the index.html file in your browser.
+Note
+This portfolio is built with a mixture of local and CDN-hosted libraries. Ensure you are connected to the internet when opening the web page to load all the libraries correctly.
 
-For advanced usage, you have some prerequisites to install. Then you can run it on your localhost. You can view the package.json file to see which scripts are included.
+Please ensure to update tests as appropriate and keep this README updated.
 
-#### Install prerequisites (once for a machine)
+Contributing
+Fork the Project
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
+Commit your Changes (git commit -m 'Add some AmazingFeature')
+Push to the Branch (git push origin feature/AmazingFeature)
+Open a Pull Request
+License
+Distributed under the MIT License. See LICENSE for more information.
 
-* **Node Installation:** [Install node js](https://nodejs.org/en/download/)
-* **Gulp Installation:** Install gulp globally from your terminal
-
-```
-npm install --global gulp-cli
-```
-
-Or visit the original [Gulp docs](https://gulpjs.com/docs/en/getting-started/quick-start)
-
-#### Local setup
-
-After successfully installing those dependencies, open this theme with any IDE [[VS Code](https://code.visualstudio.com/) recommended], and then open the internal terminal of IDM [vs code shortcut <code>ctrl/cmd+\`</code>]
-
-* Install dependencies
-
-```
-npm install
-```
-
-* Run locally
-
-```
-npm run dev
-```
-
-After that, it will open up a preview of the template in your default browser, watch for changes to source files, and live reload the browser when changes are saved.
-
-#### Production Build
-
-After finishing all the customization, you can create a production build by running this command.
-
-```
-npm run build
-```
-
-Now you get a `theme` folder that has all the changes you have made. you can use this folder as your main theme.
-
-👉🏻 [visit documentation](https://docs.themefisher.com/timer/)
-
-<!-- reporting issue -->
-## Reporting Issues
-
-We use GitHub Issues as the official bug tracker for the timer Template. Please Search [existing issues](https://github.com/themefisher/timer/issues). It’s possible someone has already reported the same problem.
-If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/themefisher/timer/issues).
-
-<!-- support -->
-## Technical Support or Questions (Paid)
-
-If you have questions or need help integrating the product please [contact us](mailto:mehedi@themefisher.com) instead of opening an issue.
-
-<!-- licence -->
-## License
-
-Copyright (c) 2016 - Present, Designed & Developed by [Themefisher](https://themefisher.com)
-
-**Code License:** Released under the [MIT](https://github.com/themefisher/timer/blob/main/LICENSE) license.
-
-**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
+Contact
+GitHub: https://github.com/trickstyle89
+LinkedIn: https://www.linkedin.com/in/chewstory/
